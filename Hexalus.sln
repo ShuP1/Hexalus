@@ -1,9 +1,65 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{1AADBF65-1038-4D1E-9DB2-14AF9F090AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0329AE3D-DA9E-4E95-9FBE-27EB8F94E687}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssembly.cs = CommonAssembly.cs
+		License.md = License.md
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{67CF1710-C4D8-45CB-BE4C-936A24E53222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{367128AA-5B31-40E1-8D67-0DA4CFEEFED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_Console", "Server_Console\Server_Console.csproj", "{C15BC66E-3A43-429E-9A81-F13EA80BFA57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AADBF65-1038-4D1E-9DB2-14AF9F090AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AADBF65-1038-4D1E-9DB2-14AF9F090AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AADBF65-1038-4D1E-9DB2-14AF9F090AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AADBF65-1038-4D1E-9DB2-14AF9F090AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367128AA-5B31-40E1-8D67-0DA4CFEEFED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367128AA-5B31-40E1-8D67-0DA4CFEEFED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367128AA-5B31-40E1-8D67-0DA4CFEEFED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367128AA-5B31-40E1-8D67-0DA4CFEEFED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CF1710-C4D8-45CB-BE4C-936A24E53222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CF1710-C4D8-45CB-BE4C-936A24E53222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CF1710-C4D8-45CB-BE4C-936A24E53222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CF1710-C4D8-45CB-BE4C-936A24E53222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15BC66E-3A43-429E-9A81-F13EA80BFA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15BC66E-3A43-429E-9A81-F13EA80BFA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15BC66E-3A43-429E-9A81-F13EA80BFA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15BC66E-3A43-429E-9A81-F13EA80BFA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.StandardHeader = $1
+		$1.Text = 
+		$1.IncludeInNewFiles = True
+		$0.NameConventionPolicy = $2
+		$2.Rules = $3
+		$3.NamingRule = $4
+		$4.Name = Type Parameters
+		$4.RequiredPrefixes = $5
+		$5.String = T
+		$4.RequiredSuffixes = $6
+		$6.String = Exception
+		$4.AffectedEntity = TypeParameter
+		$4.VisibilityMask = VisibilityMask
+		$4.NamingStyle = PascalCase
+		$4.IncludeInstanceMembers = True
+		$4.IncludeStaticEntities = True
+		$0.VersionControlPolicy = $7
+		$7.inheritsSet = Mono
 	EndGlobalSection
 EndGlobal
