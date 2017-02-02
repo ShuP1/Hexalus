@@ -1,6 +1,6 @@
 ﻿using MyCommon;
 
-namespace Hexalus_Common.Protocol
+namespace Common.Protocol
 {
     public enum DataTypes { Request, Result, Event };
 

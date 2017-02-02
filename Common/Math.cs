@@ -1,4 +1,4 @@
-﻿namespace Hexalus_Common
+﻿namespace Common
 {
     public enum Direction { Center, LeftUp, Up, RightUp, LeftDown, Down, RightDown }
 

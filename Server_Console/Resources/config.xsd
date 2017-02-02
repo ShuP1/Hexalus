@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Config">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="core">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:short" name="port" />
+							<xs:element type="xs:byte" name="size" />
+							<xs:element type="xs:byte" name="backlog" />
+							<xs:element type="xs:byte" name="kickTimer" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element type="xs:string" name="logPath" />
+				<xs:element type="xs:string" name="logLevel" />
+				<xs:element name="backColor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="ConsoleColor" maxOccurs="unbounded" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="foreColor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="ConsoleColor" maxOccurs="unbounded" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

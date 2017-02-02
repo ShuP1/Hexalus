@@ -1,4 +1,4 @@
-﻿namespace Hexalus_Common
+﻿namespace Common
 {
     public class Point
     {
